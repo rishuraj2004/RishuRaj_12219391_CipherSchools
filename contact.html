@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .topnav {
+            float: right;
+            background-color: transparent;
+        }
+        .topnav a:hover{
+          background-color: #aaa;  
+        }
+        .topnav a {
+          float: right;
+          display: block;
+          color: #000000;
+          text-align: center;
+          padding: 15px 20px;
+          text-decoration: none;
+          transition: 0.5s;
+          border-radius: 25px;
+        }
+        .img{
+            border-radius: 50%;
+            display: flex ;
+            width: 100px;
+        }
+        .avatar{
+            width: 100px;
+            height: 100px;
+            position: center;
+            top: 0%;
+            border-radius: 50%;
+        }
+        .sign-up-form{
+            width: 350px;
+            height: 500px;
+            box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.3) ;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            margin: 8% auto 0;
+            text-align: center;
+        }
+        .input-box{
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            width: 75%;
+            border: 1px solid #999;
+            outline: none;
+        }
+        .signup-btm{
+            background-color: #10069F;
+            color: #fff;
+            width: 40%;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 15px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://www.pngfind.com/pngs/m/413-4139109_world-gym-logo-png-golds-gym-logo-vector.png" class="img">
+        <div class="topnav">
+          <a href="https://play.google.com/store/apps/details?id=com.netpulse.mobile.goldsgymmypath&hl=en_IN&gl=US">Our app</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="project.html">Home</a>
+        </div>
+    </div>
+    <div class="sign-up-form">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGBxaYdGHEpJ9001ON09kQBXAnqZaCYG3--fcJQUAIbkQAjWc-BpxmbgwJrzURi0j8gc&usqp=CAU" class="avatar">
+        <hr>
+        <form>
+            <input type="text" class="input-box" placeholder="Full Name" required>
+            <input type="email" class="input-box" placeholder="Email Address" required>
+            <input type="number" class="input-box" placeholder="Number" required>
+            <textarea class="input-box" rows="5" cols="20" placeholder="Message" required></textarea>
+            <p></p>
+            <a href="#"><button type="submit" class="signup-btm">LET'S GO</button></a>
+            <HR>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        *{
+            box-sizing: inherit;
+        }
+        body {
+            margin: 0%;
+        }     
+        html {
+            box-sizing: border-box;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .topnav {
+            float: right;
+            background-color: transparent;
+        }
+        .topnav a:hover{
+          background-color: #aaa;  
+        }
+        .topnav a {
+          float: right;
+          display: block;
+          color: #000000;
+          text-align: center;
+          padding: 15px 20px;
+          text-decoration: none;
+          transition: 0.5s;
+          border-radius: 25px;
+        }
+        .img{
+            border-radius: 50%;
+            display: flex ;
+            width: 100px;
+        }
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding-top: 100px;
+        }
+          
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+        .container {
+            text-align: center;
+            height: 300px;
+            padding-top: 50px;
+            background-color: #F1F3FE;
+        }
+          
+        
+          
+        .title {
+            color: grey;
+        }
+          
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            text-decoration: none;
+        }
+          
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://www.pngfind.com/pngs/m/413-4139109_world-gym-logo-png-golds-gym-logo-vector.png" class="img">
+        <div class="topnav">
+          <a href="https://play.google.com/store/apps/details?id=com.netpulse.mobile.goldsgymmypath&hl=en_IN&gl=US">Our app</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="project.html">Home</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Sumit Sharma</h2>
+              <p class="title">Student</p>
+              <p>KOC-35</p>
+              <p>sumitsharma@gmail.com</p>
+              <a href="#" class="button">Contact</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h2>Saurabh rajput</h2>
+              <p class="title">Student</p>
+              <p>KOC-35</p>
+              <p>Saurabhrajput@gmail.com</p>
+              <a href="#" class="button">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+              <div class="container">
+                <h2>abhishek ranjan</h2>
+                <p class="title">Student</p>
+                <p>KOC-35</p>
+                <p>abhishekranjan@gmail.com</p>
+                <a href="#" class="button">Contact</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
